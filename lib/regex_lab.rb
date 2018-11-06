@@ -20,12 +20,12 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   end
 end 
 
-  if text.scan(/^[A-Z][\s\S]+\.$/).empty?
-    false
-  else
-    true
-  end
-end
+#   if text.scan(/^[A-Z][\s\S]+\.$/).empty?
+#     false
+#   else
+#     true
+#   end
+# end
 
 def valid_phone_number?(phone)
 
