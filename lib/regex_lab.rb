@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  word.match(/\w[aeiou]/)? true : false  
+  word.match(/\w^[aeiou]/)? true : false  
   # remember this is another way to write an if/else statement. what happens on the left of the statement it would be true otherwise false
 end
 
